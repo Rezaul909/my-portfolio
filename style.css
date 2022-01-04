@@ -2,7 +2,7 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-section{
+.flex-class{
     display:flex;
     margin-bottom: 150px;
 }
@@ -20,7 +20,10 @@ div>img{
 h1{
     font-size:50px;
 }
-.name{
+h2{
+    font-size:40px;
+}
+.orenge{
     color:blueviolet
 }
 input{
@@ -38,4 +41,30 @@ input{
 }
 #big-dream{
     padding-right: 10%;
+}
+.last-section{
+    background-image:url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left center;
+}
+.exparience-item{
+    width:45%;
+    margin-right: 2%;
+    margin-left: 5%;
+    box-shadow: 10px 10px 40px gray;
+    padding: 0px 10px 70px 50px ;
+    border-radius: 10px;
+}
+#left-left-border{
+    border-left: 7px solid;
+    border-image: linear-gradient(cyan,blue);
+    border-image-slice: 1;
+}
+#right-left-border{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, red);
+    border-image-slice:1;
+}
+.footar{
+    text-align: center;
 }
